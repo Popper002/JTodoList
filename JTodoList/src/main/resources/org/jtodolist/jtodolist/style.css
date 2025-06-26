@@ -1,0 +1,80 @@
+
+#HomeBackground {
+    -fx-background-color: black;
+}
+
+#AddToListAnchorPannel{
+
+    -fx-background-color: #73AD21;
+    -fx-background-radius: 25;
+    -fx-background-insets: 0;
+
+    -fx-padding: 20;
+    -fx-pref-width: 200;
+    -fx-pref-height: 150;
+
+
+
+}
+#RemoveToListAnchorPannel{
+    -fx-background-color: #73AD21;
+    -fx-background-radius: 25;
+    -fx-background-insets: 0;
+
+    -fx-padding: 20;
+    -fx-pref-width: 200;
+    -fx-pref-height: 150;
+}
+#ViewToListAnchorPannel{
+    -fx-background-color: #73AD21;
+    -fx-background-radius: 25;
+    -fx-background-insets: 0;
+
+    -fx-padding: 20;
+    -fx-pref-width: 200;
+    -fx-pref-height: 150;
+}
+#InfoHome{
+    -fx-background-color: #73AD21;
+    -fx-background-radius: 25;
+    -fx-background-insets: 0;
+
+    -fx-padding: 20;
+    -fx-pref-width: 200;
+    -fx-pref-height: 150;
+}
+
+#TextInfoHome{
+    -fx-font-family: "Segoe UI";      /* Puoi cambiare in Arial, Georgia, Comic Sans MS, ecc. */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;             /* Colore del testo */
+    -fx-alignment: center;
+}
+#TextRemoveToListAnchorPannel
+{
+    -fx-font-family: "Segoe UI";      /* Puoi cambiare in Arial, Georgia, Comic Sans MS, ecc. */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;             /* Colore del testo */
+    -fx-alignment: center;
+}
+
+#TextAddToListAnchorPannel
+{
+    -fx-font-family: "Segoe UI";      /* Puoi cambiare in Arial, Georgia, Comic Sans MS, ecc. */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;             /* Colore del testo */
+    -fx-alignment: center;
+
+}
+
+#TextViewToListAnchorPannel
+{
+    -fx-font-family: "Segoe UI";      /* Puoi cambiare in Arial, Georgia, Comic Sans MS, ecc. */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;             /* Colore del testo */
+    -fx-alignment: center;
+}

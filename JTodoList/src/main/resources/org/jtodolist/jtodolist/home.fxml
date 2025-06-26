@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="HomeBackground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23" fx:controller="org.jtodolist.jtodolist.Controller.HomeController" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="AddToListAnchorPannel" onMouseClicked="#openListOfTask" layoutX="38.0" layoutY="37.0" prefHeight="99.0" prefWidth="169.0" stylesheets="@style.css">
+         <children>
+            <Text id="TextAddToListAnchorPannel"  layoutX="82.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add task" />
+         </children>
+      </AnchorPane>
+      <AnchorPane id="ViewToListAnchorPannel"  onMouseClicked="#openViewListOfTask" layoutX="38.0" layoutY="249.0" prefHeight="99.0" prefWidth="169.0">
+         <children>
+            <Text id="TextViewToListAnchorPannel" layoutX="75.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View list" />
+         </children>
+      </AnchorPane>
+      <AnchorPane id="RemoveToListAnchorPannel" onMouseClicked="#openRemoveListOfTask" layoutX="355.0" layoutY="37.0" prefHeight="99.0" prefWidth="169.0" stylesheets="@style.css">
+         <children>
+            <Text id="TextRemoveToListAnchorPannel" layoutX="63.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remove task" />
+         </children>
+      </AnchorPane>
+      <AnchorPane id="InfoHome" onMouseClicked="#openInforPannel" layoutX="355.0" layoutY="250.0" prefHeight="99.0" prefWidth="194.0">
+         <children>
+            <Text id="TextInfoHome" layoutX="88.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Info" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

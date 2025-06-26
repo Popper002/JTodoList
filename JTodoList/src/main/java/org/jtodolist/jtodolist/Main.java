@@ -1,6 +1,7 @@
 package org.jtodolist.jtodolist;
 
-import Todo.Todo;
+import JTodoList.Todo.Todo;
+
 
 import java.util.Scanner;
 
